@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-user-registration',
@@ -14,7 +15,7 @@ export class UserRegistrationComponent {
   password=""
   dob=""
 
-  constructor(private api:Apiservise){}
+  constructor(private api:ApiService){}
   read=()=>{
     let data={"name":this.name,"id":this.id,"address":this.address,"contact":this.contact,"email":this.email,"password":this.password,"dob":this.dob}
     console.log(data)
