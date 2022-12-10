@@ -8,7 +8,9 @@ import { FormsModule } from '@angular/forms';
 import { Router, RouterModule, Routes } from '@angular/router';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
 import { UserloginComponent } from './userlogin/userlogin.component';
-import {HttpClientModule}from'@angular/common/http'
+import {HttpClientModule}from'@angular/common/http';
+import { ViewprofileComponent } from './viewprofile/viewprofile.component';
+
 
 const myRoute : Routes =[
 {
@@ -31,6 +33,8 @@ const myRoute : Routes =[
     AdminLoginComponent,
     UserRegistrationComponent,
     UserloginComponent,
+    ViewprofileComponent,
+   
    
   ],
   imports: [
