@@ -10,6 +10,7 @@ import { UserRegistrationComponent } from './user-registration/user-registration
 import { UserloginComponent } from './userlogin/userlogin.component';
 import {HttpClientModule}from'@angular/common/http';
 import { ViewprofileComponent } from './viewprofile/viewprofile.component';
+import { NavloginComponent } from './navlogin/navlogin.component';
 
 
 const myRoute : Routes =[
@@ -24,6 +25,10 @@ const myRoute : Routes =[
 {
   path:"userlogin",
   component:UserloginComponent
+},
+{
+  path:"viewprofile",
+  component:ViewprofileComponent
 }
 ]
 
@@ -34,6 +39,7 @@ const myRoute : Routes =[
     UserRegistrationComponent,
     UserloginComponent,
     ViewprofileComponent,
+    NavloginComponent,
    
    
   ],
