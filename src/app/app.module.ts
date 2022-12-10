@@ -12,6 +12,7 @@ import {HttpClientModule}from'@angular/common/http';
 import { ViewprofileComponent } from './viewprofile/viewprofile.component';
 import { NavloginComponent } from './navlogin/navlogin.component';
 import { NavadminComponent } from './navadmin/navadmin.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 const myRoute : Routes =[
@@ -30,6 +31,10 @@ const myRoute : Routes =[
 {
   path:"viewprofile",
   component:ViewprofileComponent
+},
+{
+  path:"dashboard",
+  component:DashboardComponent
 }
 ]
 
@@ -42,6 +47,7 @@ const myRoute : Routes =[
     ViewprofileComponent,
     NavloginComponent,
     NavadminComponent,
+    DashboardComponent,
    
    
   ],
