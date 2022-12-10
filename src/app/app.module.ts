@@ -11,6 +11,7 @@ import { UserloginComponent } from './userlogin/userlogin.component';
 import {HttpClientModule}from'@angular/common/http';
 import { ViewprofileComponent } from './viewprofile/viewprofile.component';
 import { NavloginComponent } from './navlogin/navlogin.component';
+import { NavadminComponent } from './navadmin/navadmin.component';
 
 
 const myRoute : Routes =[
@@ -40,6 +41,7 @@ const myRoute : Routes =[
     UserloginComponent,
     ViewprofileComponent,
     NavloginComponent,
+    NavadminComponent,
    
    
   ],
