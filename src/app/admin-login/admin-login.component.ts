@@ -16,7 +16,7 @@ readvalue=()=>{
   let admin:any={"username":this.username,"Password":this.password}
   console.log(admin)
   if (this.username=="admin"&& this.password=="12345") {
-    this.route.navigate(['/addproduct'])
+    this.route.navigate(['/dashboard'])
   }
   else{
     alert("Invalid Credentials")
